@@ -5,4 +5,10 @@
 
 Код проекта представлен в файле main.py
 Для того, чтобы он запустился, загрузите зависимости из файла requirements.txt
-в файле .env необходимо прописать WATCH_PATH=./observered_dir или вр
+создайте файл .env и положите в ту директорию, где находится исполняемый файл 
+пример содержания .env WATCH_PATH=./observered_dir
+CURL
+curl http://0.0.0.0:8000/stats
+curl http://0.0.0.0:8000/health
+curl http://0.0.0.0:8000/files
+
